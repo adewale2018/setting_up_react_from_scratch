@@ -1,0 +1,27 @@
+{
+  "name": "setting_up_react_from_scratch",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx webpack-dev-server --mode development",
+    "build": "npx webpack --mode development"
+  },
+  "repository": "https://github.com/adewale2018/setting_up_react_from_scratch.git",
+  "author": "Saheed Adewale Shittu <saheedadewaleshittu@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.11.5",
+    "@babel/core": "^7.11.5",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^4.2.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-hot-loader": "^4.12.21",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
